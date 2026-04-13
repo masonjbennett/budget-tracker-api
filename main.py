@@ -23,7 +23,7 @@ app = FastAPI(title="Budget Tracker API", version="4.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://*.vercel.app", "https://budget-tracker-v2.vercel.app", "https://budget-tracker-v2-masonjbennett.vercel.app"],
+    allow_origins=["http://localhost:3000", "https://*.vercel.app", "https://budget-tracker-v2-beta.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
